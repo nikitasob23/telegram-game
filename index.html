@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accept the Rules</title>
+    <style>
+        /* Ваш CSS-код */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Accept the Rules</h1>
+        <p>
+            Serving specific pages to particular Telegram users is an extremely powerful tool that allows you to build cool HTML5 games and integrated interfaces. But power of this kind also requires a lot of responsibility on the part of bot developers. Please read our Rules carefully, and accept them only if you agree with them.
+        </p>
+        <button onclick="acceptRules()">Accept</button>
+    </div>
+    <script>
+        function acceptRules() {
+            alert('You have accepted the rules. Thank you!');
+            document.querySelector('.container').innerHTML = "<h1>Thank you for accepting the rules!</h1>";
+        }
+    </script>
+</body>
+</html>
+
